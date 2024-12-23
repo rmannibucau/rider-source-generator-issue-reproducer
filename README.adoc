@@ -1,0 +1,8 @@
+= Rider Source Generator issue demo
+
+IMPORTANT: this project uses .NET 9.
+
+. build (`dotnet build`)
+. run: `dotnet run --project app/app.csproj`, the output is `Seen=a method seen by the generator`
+
+Now go in Rider and open `Program.cs`, it is reported as if source generator was not functional even after a first compilation and the generated sources are not visible in solution view (on the left).
